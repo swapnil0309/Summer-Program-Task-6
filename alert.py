@@ -18,7 +18,7 @@ def mail():
 
 def whatsapp():
     import pywhatkit
-    pywhatkit.sendwhatmsg_instantly("+919082951297" , 'One face has been recognised')
+    pywhatkit.sendwhatmsg_instantly("WhatsApp No" , 'One face has been recognised')
     print("Whatsapp message has been sent")
 
 def launch_ec2():
